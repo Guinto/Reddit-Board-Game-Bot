@@ -1,9 +1,4 @@
 var request = require('request');
-
-if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').load();
-}
-
 const Snoowrap = require('snoowrap');
 const Snoostorm = require('snoostorm');
 
