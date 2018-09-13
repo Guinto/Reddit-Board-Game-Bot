@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/Guinto/Reddit-Board-Game-Bot#readme",
   "engines": {
-    "node": "4.1.1"
+    "node": "4.7.0"
   },
   "dependencies": {
     "dotenv": "^6.0.0",
