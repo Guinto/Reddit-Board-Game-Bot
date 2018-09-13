@@ -50,7 +50,7 @@ function postReply(comment) {
         };
 
         for (var i = 0; i < names.length; i++) {
-            request({url: "https://www.5colorcombo.com/api/search?exact=true&name=" + encodeURIComponent(names[i]) } , function(err, res, jsonString) {
+            request({url: "https://www.5colorcombo.com/api/search?exact=true&name=" + encodeURIComponent(names[i]) + "&utm_source=reddit_bot&utm_medium=api&utm_campaign=api_exposure" } , function(err, res, jsonString) {
                 var json = JSON.parse(jsonString);
                 if (json.games.length >= 1) {
                     var game = json.games[0];
