@@ -1,0 +1,41 @@
+{
+  "name": "reddit-board-game-bot",
+  "version": "1.0.0",
+  "description": "This is a reddit bot that uses the 5 Color Combo board game API to repsond with board game links to mentioned games.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guinto/Reddit-Board-Game-Bot.git"
+  },
+  "keywords": [
+    "board",
+    "games",
+    "reddit",
+    "bot",
+    "reddit",
+    "board",
+    "game",
+    "5",
+    "color",
+    "combo",
+    "5CC"
+  ],
+  "author": "Trent Ellingsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guinto/Reddit-Board-Game-Bot/issues"
+  },
+  "homepage": "https://github.com/Guinto/Reddit-Board-Game-Bot#readme",
+  "engines": {
+    "node": "4.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "request": "^2.88.0",
+    "snoostorm": "0.0.5",
+    "snoowrap": "^1.15.2"
+  }
+}
