@@ -1,4 +1,6 @@
 # Reddit-Board-Game-Bot
+**Current Status:** Not running. See this reddit post for details: [https://www.reddit.com/r/boardgames/comments/9fv39a/i_made_a_boardgame_reddit_bot_that_looks_up_the/](https://www.reddit.com/r/boardgames/comments/9fv39a/i_made_a_boardgame_reddit_bot_that_looks_up_the/)
+
 This fetches board game entries from the [5 Color Combo board game API](https://www.5colorcombo.com/api/docs) whenever a comment is made and replies with the listed boardgame. It's running on a free heroku tier currently. 
 
 ## How to use it
