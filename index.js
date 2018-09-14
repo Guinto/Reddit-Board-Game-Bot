@@ -50,7 +50,12 @@ function postReply(comment) {
                 var json = JSON.parse(jsonString);
                 if (json.games.length >= 1) {
                     var game = json.games[0];
-                    addGameText("\n\n* [" + game.name + "](" + game.image_url + ") \- [(5CC)](" + game.url + ")")
+                    if (game.image_url.indexOf('5cc.images/games/empty+box') != -1) {
+                        addGameText("\n\n* " + game.name + " \- [(5CC)](" + game.url + ")")
+                    }
+                    else {
+                        addGameText("\n\n* [" + game.name + "](" + game.image_url + ") \- [(5CC)](" + game.url + ")")
+                    }
                 }
                 else {
                     addGameText("");
