@@ -13,7 +13,7 @@ const client = new Snoostorm(r);
 
 const streamOpts = {
     subreddit: 'boardgames',
-    results: 100
+    results: 1000
 };
 
 const comments = client.CommentStream(streamOpts);
