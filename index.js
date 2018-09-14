@@ -36,6 +36,7 @@ function postReply(comment) {
             if (gamesLeft == 0 && replyText != "") {
                 replyText += '\n\n^(syntax: \[\[exact gamename\]\])'
                 try {
+                    console.log(replyText.trim())
                     comment.reply(replyText.trim());
                 }
                 catch (e) {
